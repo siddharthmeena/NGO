@@ -1,0 +1,135 @@
+body{
+    text-align: center;
+    background-color: #dae1e7;
+}
+.logo{
+    max-width: 3.5rem;
+}
+.titleImage{
+    width: 35rem;
+    height: 25rem;
+
+}
+h1{
+    padding: 2%;
+    font-weight: 600;
+    font-family: 'DM Serif Text', serif;
+    color: white;
+}
+h2{
+    margin-bottom: 2rem;
+}
+#Title{
+    background-color: #27496d;
+    margin-bottom: 10rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+p{
+    color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 3rem;
+    text-align: left;
+
+}
+#who-we-are{
+    margin: 2rem;
+    padding: 3rem;
+
+}
+#who-we-are:hover{
+    background-color: burlywood;
+}
+
+
+.who-we{
+    width:609px;
+    color: black;
+}
+#causes{
+    margin: 3rem;
+    color: black;
+}
+.card{
+    background-color: #27496d;
+}
+#volenteer{
+    background-color: #27496d;
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: antiquewhite;
+    text-align: center;
+}
+#volenteer p{
+    width: 30rem;
+    margin: auto;
+}
+.box{
+    
+    margin: 4px;
+    border-top: 0px;
+    
+     width: 50%;
+      box-sizing: border-box;
+      padding: 10px;
+   
+    border-radius: .5rem;
+    height: auto;
+}
+textarea{
+    resize: none;
+    width: 50%;
+  height: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-top: 0px;
+  border-radius: 4px;
+  margin: 3px;
+}
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:17px;
+	padding:12px 28px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+
+#footer{
+    padding-top: 2rem;
+    background-color: #10375c;
+    text-align: left;
+    color: antiquewhite;
+
+
+}
+#footer p{
+    margin-left: 0;
+    padding-left: 0;
+    width: 15rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+@media only screen and(max-width:700px){
+    body{
+        text-align: center;
+    }
+}
